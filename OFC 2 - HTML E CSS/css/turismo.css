@@ -1,9 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+nav {
+    background-color:crimson ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 80px 80px;
+    height: 120px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
 
+body{
+    font-family:Impact ;
+    background-color:cornsilk ;
+
+}
+
+#menu-logo{ 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#img-menu{
+    height: 225px;
+    width: 225px;
+}
+
+#japao{
+    font-family: 'Courier New';
+    font-size: 35px;
+   
+}
+
+
+#destino{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inicio{
+    height: 500px;
+    border-radius: 100px 100px 100px 100px;
+}
+
+nav ul{
+    display: flex;
+    gap: 45px;
+    margin-right: 100px;
+}
+
+nav li{
+    font-size: 30px;
+    transition: 0.5s ease-in;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+#ponto_turistico{
+    text-align: center;
+    color: chocolate;
+    text-decoration: underline;
+    font-size: 25px
+}
+
+.turismo{
+    text-align: center;
+
+   
+}
+
+.turismo h2{
+    font-size: 35px;
+
+}
+
+.turismo p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 20px;
+}
+
+
+.turismo img{
+   width: 1000px;
+   height: 500px;
+   border-radius: 100px 100px 100px 100px;
+   margin: 10px;
+}
